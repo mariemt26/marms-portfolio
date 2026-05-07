@@ -9,7 +9,7 @@ export default function Home() {
       backgroundColor: '#c4a098' // matches your wall color, hides the black edges
     }}>
       <Spline
-        scene="https://prod.spline.design/7cbJfOPulOlFECsi/scene.splinecode"
+        scene= "https://prod.spline.design/7cbJfOPulOlFECsi/scene.splinecode"
         style={{ width: '100%', height: '100%' }}
       />
     </main>
