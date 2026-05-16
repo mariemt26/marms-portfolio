@@ -1,7 +1,9 @@
+import styles from './portfolio.module.css';
+
 export default function Portfolio() {
   return (
-    <main>
-      <h1>Welcome to my personal journal!</h1>
+    <main className={styles.main}>
+      <h1 className={styles.handwriting}>Welcome to my journal!</h1>
     </main>
   );
 }
